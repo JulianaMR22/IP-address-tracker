@@ -1,0 +1,96 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: "Rubik", sans-serif;
+}
+
+div.main__container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 280px;
+  background-image: url(./images/pattern-bg-desktop.png);
+}
+.main__container .title__container {
+  text-align: center;
+  color: white;
+  font-weight: 500;
+  margin-top: 30px;
+}
+
+.main__container .container__input {
+  position: relative;
+  margin: 0 auto;
+  margin-top: 29px;
+  width: 38%;
+}
+
+.main__container .container__input .input {
+  width: 100%;
+  height: 55px;
+  border-radius: 13px;
+  border: none;
+  font-size: 18px;
+  padding-left: 22px;
+  padding-right: 22px;
+  background-color: white;
+}
+
+.main__container .container__input .input__icon {
+  position: absolute;
+  top: 0;
+  right: 0px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  background-color: black;
+  width: 55px;
+  height: 55px;
+  border-bottom-right-radius: 13px;
+  border-top-right-radius: 13px;
+  cursor: pointer;
+}
+
+.main__container .container__input .input__icon:hover {
+  background-color: hsl(0, 0%, 17%);
+}
+
+div.principal__information {
+  display: flex;
+  justify-content: space-evenly;
+  position: absolute;
+  width: 77%;
+  height: 140px;
+  top: 33%;
+  padding-top: 28px;
+  padding-bottom: 25px;
+  background-color: white;
+  border-radius: 15px;
+  -webkit-box-shadow: -1px 4px 17px -15px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -1px 4px 17px -15px rgba(0, 0, 0, 0.75);
+  box-shadow: -1px 4px 17px -15px rgba(0, 0, 0, 0.75);
+}
+
+.principal__information .information__location {
+  width: 17%;
+}
+
+.principal__information .information__location .location__time {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 12px;
+  color: hsl(0, 0%, 59%);
+}
+
+.principal__information .information__location .time__data {
+  color: hsl(0, 0%, 17%);
+  font-weight: 500;
+  font-size: 22px;
+  margin-top: 8%;
+}
+.principal__information .information__separate {
+  margin-top: 5px;
+  border: 1px solid hsla(0, 0%, 59%, 0.371);
+  margin-bottom: 12px;
+}
