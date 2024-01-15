@@ -26,32 +26,35 @@
           type="text"
           placeholder="Search for any IP address or domain"
           class="input"
+          id="searchInput"
         />
-        <span class="input__icon"
+        <span class="input__icon" id="inputButton"
           ><img src="./images/icon-arrow.svg" alt=""
         /></span>
       </div>
       <div class="principal__information">
         <div class="information__location">
           <p class="location__time">ip address</p>
-          <p class="time__data">192.212.174.101</p>
+          <p class="time__data" id="ipAddress">192.212.174.101</p>
         </div>
         <div class="information__separate"></div>
         <div class="information__location">
           <p class="location__time">location</p>
-          <p class="time__data">Brooklyn, NY 10001</p>
+          <p class="time__data" id="locationData">Brooklyn,</p>
+          <p class="time__data data__region" id="locationRegion">NY 10001</p>
         </div>
         <div class="information__separate"></div>
         <div class="information__location">
           <p class="location__time">timezone</p>
-          <p class="time__data">UTC -05:00</p>
+          <p class="time__data" id="timeZone">UTC -05:00</p>
         </div>
         <div class="information__separate"></div>
         <div class="information__location location__right">
           <p class="location__time">isp</p>
-          <p class="time__data">SpaceX Stalink</p>
+          <p class="time__data" id="isp">SpaceX Stalink</p>
         </div>
       </div>
     </div>
+    <script src="./index.js"></script>
   </body>
 </html>

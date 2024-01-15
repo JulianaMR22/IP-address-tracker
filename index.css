@@ -76,6 +76,10 @@ div.principal__information {
   width: 17%;
 }
 
+.principal__information .information__location {
+  overflow: auto;
+}
+
 .principal__information .information__location .location__time {
   text-transform: uppercase;
   font-weight: 700;
@@ -88,6 +92,9 @@ div.principal__information {
   font-weight: 500;
   font-size: 22px;
   margin-top: 8%;
+}
+.principal__information .information__location .time__data.data__region {
+  margin-top: 1%;
 }
 .principal__information .information__separate {
   margin-top: 5px;
