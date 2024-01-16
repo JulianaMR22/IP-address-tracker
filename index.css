@@ -11,6 +11,7 @@ div.main__container {
   align-items: center;
   height: 280px;
   background-image: url(./images/pattern-bg-desktop.png);
+  background-size: cover;
 }
 .main__container .title__container {
   text-align: center;
