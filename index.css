@@ -79,7 +79,17 @@ div.principal__information {
 .principal__information .information__location {
   overflow: auto;
 }
+::-webkit-scrollbar {
+  width: 10px;
+}
 
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
 .principal__information .information__location .location__time {
   text-transform: uppercase;
   font-weight: 700;
@@ -100,4 +110,10 @@ div.principal__information {
   margin-top: 5px;
   border: 1px solid hsla(0, 0%, 59%, 0.371);
   margin-bottom: 12px;
+}
+
+div.information__maps {
+  z-index: -1;
+  height: 400px;
+  width: 100%;
 }
