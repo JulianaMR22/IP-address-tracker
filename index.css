@@ -118,3 +118,55 @@ div.information__maps {
   height: 400px;
   width: 100%;
 }
+
+@media screen and (max-width: 640px) {
+  .main__container .title__container {
+    font-size: 26px;
+  }
+  .main__container .container__input {
+    width: 90%;
+    margin-top: 22px;
+  }
+
+  .main__container .container__input .input {
+    font-size: 14px;
+  }
+
+  div.principal__information {
+    flex-direction: column;
+    justify-content: space-between;
+    width: 85%;
+    height: 260px;
+    top: 20%;
+    padding-top: 18px;
+    padding-bottom: 25px;
+    text-align: center;
+  }
+
+  .principal__information .information__location {
+    width: 100%;
+    height: auto;
+  }
+
+  .principal__information .information__location .location__time {
+    font-size: 11px;
+    margin-bottom: 5px;
+  }
+
+  .principal__information .information__location .time__data {
+    font-size: 15px;
+    margin-top: 3%;
+  }
+
+  .principal__information .information__separate {
+    display: none;
+  }
+
+  div.information__maps {
+    height: 500px;
+  }
+
+  .information__maps .leaflet-control-container .leaflet-top {
+    top: 140px;
+  }
+}
