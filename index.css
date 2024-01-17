@@ -137,7 +137,7 @@ div.information__maps {
     justify-content: space-between;
     width: 85%;
     height: 260px;
-    top: 20%;
+    top: 170px;
     padding-top: 18px;
     padding-bottom: 25px;
     text-align: center;
@@ -167,6 +167,6 @@ div.information__maps {
   }
 
   .information__maps .leaflet-control-container .leaflet-top {
-    top: 140px;
+    top: 150px;
   }
 }
